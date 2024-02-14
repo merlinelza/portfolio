@@ -1,0 +1,69 @@
+#project {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.projectTitle {
+    padding-top: 5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.PorjectBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.PorjectBar {
+    display: flex;
+
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: whitesmoke;
+}
+
+.projectImg {
+    object-fit: cover;
+    height: 7rem;
+    width: 7rem;
+    margin: 2rem;
+}
+
+.projectText > h2 {
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.projectText > p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 720px) {
+    .projectText > p {
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width: 480px) {
+    .projectText > p {
+        font-size: 3vw;
+    }
+    .projectImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .projectText {
+        font-size: 5vw;
+    }
+}

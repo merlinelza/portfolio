@@ -1,0 +1,73 @@
+#contactMe {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contactHeading {
+    padding-top: 5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.contactDesp {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name,
+.email,
+.message {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1 rem;
+    color: black;
+    border: 1px solid grey;
+    background-color: #fcfcfc;
+}
+
+.contactForm input::placeholder,
+.contactForm textarea::placeholder {
+    font-size: small;
+    font-weight: 300;
+}
+
+.submitBtn {
+    padding: 0.75rem 3.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    margin: 2rem;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}
