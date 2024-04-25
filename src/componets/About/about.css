@@ -1,5 +1,4 @@
 #about {
-    height: calc(100vh - 4rem);
     width: 100dvw;
     max-width: 75rem;
     margin: 0 auto;
@@ -33,7 +32,7 @@
 
 .about_me {
     margin: 0 auto;
-    width: 65%;
+    width: 70%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, #c0c0c0, transparent);
