@@ -148,6 +148,10 @@
 }
 
 @media screen and (max-width: 480px) {
+    .about_me {
+        width: 50%;
+    }
+
     .about_heading {
         margin: 1rem 0 3rem;
         font-size: 3rem;
@@ -165,7 +169,7 @@
     .about_cards {
         justify-content: center;
         grid-template-columns: 2, 0.35fr;
-        gap: 2rem;
+        gap: 3rem;
     }
 
     .about_me {
