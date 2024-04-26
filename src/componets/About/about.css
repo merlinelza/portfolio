@@ -38,6 +38,7 @@
     background: linear-gradient(45deg, transparent, #c0c0c0, transparent);
     display: grid;
     place-items: center;
+    margin: 0 auto 2rem;
 }
 
 .about_me_image {
@@ -161,16 +162,14 @@
     }
 
     .about_me_image {
-        padding-top: 2rem;
-        width: 85%;
+        width: 100%;
         margin: 0 auto 2rem;
         border-radius: 2rem;
     }
 
     .about_cards {
-        justify-content: center;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 0.35fr);
         gap: 3rem;
     }
 
@@ -189,6 +188,6 @@
     }
 
     .aboutPara {
-        margin-top: 0;
+        margin-top: 1.5rem 0;
     }
 }
