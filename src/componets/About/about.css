@@ -161,6 +161,7 @@
     }
 
     .about_me_image {
+        padding-top: 2rem;
         width: 100%;
         margin: 0 auto 2rem;
         border-radius: 2rem;
@@ -169,8 +170,9 @@
     .about_cards {
         justify-content: center;
         display: grid;
-        grid-template-columns: 1, 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 5rem;
+        width: 100vw;
     }
 
     .about_me {
