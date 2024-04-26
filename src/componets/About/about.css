@@ -104,7 +104,7 @@
     font-weight: 300;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 880px) {
     .about_heading {
         margin: 1rem 0 3rem;
         font-size: 3rem;
