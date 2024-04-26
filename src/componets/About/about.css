@@ -103,7 +103,7 @@
     font-weight: 300;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1024px) {
     .about_heading {
         margin: 1rem 0 3rem;
         font-size: 3rem;
@@ -147,7 +147,7 @@
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .about_me {
         width: 50%;
     }
@@ -161,10 +161,11 @@
     }
 
     .about_me_image {
-        padding-top: 2rem;
+        padding-top: 4rem;
         width: 100%;
         margin: 0 auto 2rem;
         border-radius: 2rem;
+        padding-bottom: 4rem;
     }
 
     .about_cards {
